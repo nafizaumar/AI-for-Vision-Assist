@@ -4,7 +4,7 @@ from PIL import Image
 import io
 
 # Configure the Generative AI API
-genai.configure(api_key="AIzaSyAt_yIkeI5v_53KhIamLWd1bVjRIiOvlQs")
+genai.configure(api_key="APIKEY")
 
 # Load the Generative Model
 model = genai.GenerativeModel("gemini-1.5-flash")
